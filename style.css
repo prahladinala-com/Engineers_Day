@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(men.jpg);
+    background-size: cover;
+
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    list-style: none;
+    height: 33.33vh;
+    width: 100vw;
+}
+#orange, #white, #green {
+    height: 100%;
+}
+#orange {
+    background-color: #e67e22;
+}
+
+h1{
+    color: red;
+    font-size: 50px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Special Elite', cursive;
+}
+#green {
+    background-color: green;
+}
